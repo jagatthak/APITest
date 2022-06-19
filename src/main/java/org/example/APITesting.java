@@ -76,7 +76,7 @@ public class APITesting extends Utils{
                             "    \"title\": \"abcd\",\n" +
                             "    \"body\": \"abce efg\"\n" +
                             "}")
-                    .post("posts/")
+                    .post("todos/")
                     .then()
                     .extract()
                     .response();
